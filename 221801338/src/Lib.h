@@ -1,3 +1,7 @@
+/**
+作者：221801338_冯浩
+最后修改时间：2021/03/04
+**/
 #pragma once
 #ifndef LIB_H
 #define LIB_H
@@ -29,17 +33,7 @@ private:
 
 };
 
-static map<string, int> mapword1;
 
 void loadword(char w[]);
 
-struct sWord
-{
-	string w;
-	int count;
-
-};//定义一个用于存放单词及频次的结构体 
-
-void merge(sWord* , sWord* , int , int , int );
-void sort(sWord* , sWord* , int , int);
 #endif //LIB_H
