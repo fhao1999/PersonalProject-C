@@ -106,6 +106,6 @@ int main(int argc, char* argv[])
 	delete[]ww;
 	free(f1.content);//动态空间释放 
 	clock_t ends = clock();
-	cout << "运行时间 : " << (double)(ends - start) / CLOCKS_PER_SEC << "秒" << endl;
 	return 0;
 }
+
